@@ -43,5 +43,3 @@ tabInput.forEach(function(input) {
         thisSwiper.swiper.update();
     })
 });
-
-console.log('Swiper 1 initialized', swiper);

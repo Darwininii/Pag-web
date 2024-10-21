@@ -225,7 +225,7 @@ margin-right: 180px;
 }
 
 .tabs input[type="radio"]:checked + label + .tab{
-display: block;
+    display: block;
 }
 
 .product {
