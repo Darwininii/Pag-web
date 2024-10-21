@@ -221,7 +221,11 @@ margin-right: 180px;
 
 .tabs input[type="radio"]:checked + label{
     border-bottom: 2px solid rebeccapurple;
-    color: gray;
+    color: white;
+}
+
+.tabs input[type="radio"]:checked + label + .tab{
+display: block;
 }
 
 .product {
