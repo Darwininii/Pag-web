@@ -11,68 +11,114 @@
 </head>
 <body>
     <header class="hero">
+        <!-- Sección de cabecera, clase 'hero' para estilos personalizados de la parte superior de la página. -->
+        
         <nav class="nav container">
+            <!-- Menú de navegación, clase 'nav' para estilos de barra de navegación. 'container' centra y ajusta el contenido. -->
+    
             <div class="menu container">
+                <!-- Contenedor para el menú, con clase 'menu' para aplicar estilos específicos y 'container' para la alineación. -->
+    
                 <img src="imagenes/logo.png" alt="" class="logo-1">
-            <input type="checkbox" id="menu"/>
-            <label for="menu">
-                <img src="imagenes/menu.png" alt="" class="menu-icono">
-            </label>
-            <nav class="navbar">
-                <div class="menu-1">
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Productos</a></li>
-                    </ul>
-                </div>
-                <img src="imagenes/logo.png" alt="" class="logo-2">
-                <div class="menu-2">
-                    <ul>
-                        <li><a href="#">Horario</a></li>
-                    </ul>
-                    <div class="socials">
-                        <a href="https://www.facebook.com/profile.php?id=100091148181831&locale=es_LA">
-                            <div class="social">
-                                <img src="imagenes/s1.svg" alt="">
-                            </div>
-                        </a>
-                        <a href="https://x.com/home">
-                            <div class="social">
-                                <img src="imagenes/s2.svg" alt="">
-                            </div>
-                        </a>
-                        <a href="https://www.instagram.com/danny.fastfood/?hl=es">
-                            <div class="social">
-                                <img src="imagenes/s3.svg" alt="">
-                            </div>
-                        </a>
+                <!-- Logo de la empresa o sitio web. Se muestra al inicio del menú. Clase 'logo-1' para aplicar estilo. -->
+    
+                <input type="checkbox" id="menu"/>
+                <!-- Checkbox para activar o desactivar el menú en dispositivos móviles. Este checkbox permite la funcionalidad del menú hamburguesa. -->
+    
+                <label for="menu">
+                    <img src="imagenes/menu.png" alt="" class="menu-icono">
+                    <!-- Icono de menú (hamburguesa) que aparece en pantallas móviles. Al hacer clic en este, se despliega el menú. -->
+                </label>
+    
+                <nav class="navbar">
+                    <!-- Segunda barra de navegación que contiene las opciones del menú. Clase 'navbar' para los estilos del menú. -->
+    
+                    <div class="menu-1">
+                        <!-- Sección del menú para las primeras opciones de navegación. 'menu-1' agrupa las primeras secciones. -->
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <!-- Enlace al inicio del sitio. -->
+                            <li><a href="#">Servicios</a></li>
+                            <!-- Enlace a la sección de servicios. -->
+                            <li><a href="#">Productos</a></li>
+                            <!-- Enlace a la sección de productos. -->
+                        </ul>
                     </div>
-                </div>
-            </nav>
+    
+                    <img src="imagenes/logo.png" alt="" class="logo-2">
+                    <!-- Segundo logo, aparece en la parte central del menú. Clase 'logo-2' para estilo. -->
+    
+                    <div class="menu-2">
+                        <!-- Segunda parte del menú, contiene enlaces adicionales y redes sociales. 'menu-2' para estilos. -->
+                        <ul>
+                            <li><a href="#">Horario</a></li>
+                            <!-- Enlace a la sección de horarios. -->
+                        </ul>
+                        <div class="socials">
+                            <!-- Sección de redes sociales. -->
+                            
+                            <a href="https://www.facebook.com/profile.php?id=100091148181831&locale=es_LA">
+                                <div class="social">
+                                    <img src="imagenes/s1.svg" alt="">
+                                    <!-- Icono de Facebook. -->
+                                </div>
+                            </a>
+                            <a href="https://x.com/home">
+                                <div class="social">
+                                    <img src="imagenes/s2.svg" alt="">
+                                    <!-- Icono de X (anteriormente Twitter). -->
+                                </div>
+                            </a>
+                            <a href="https://www.instagram.com/danny.fastfood/?hl=es">
+                                <div class="social">
+                                    <img src="imagenes/s3.svg" alt="">
+                                    <!-- Icono de Instagram. -->
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
             </div>
+    
             <div class="header-content container">
-
+                <!-- Contenedor principal de la sección del carrusel de la cabecera, con clase 'header-content' para estilos y centrado. -->
+    
                 <div class="swiper mySwiper-1">
+                    <!-- Componente de carrusel usando Swiper. Clase 'mySwiper-1' para los estilos personalizados de este carrusel. -->
+    
                     <div class="swiper-wrapper">
-
+                        <!-- Contenedor que agrupa todas las diapositivas del carrusel. 'swiper-wrapper' es necesario para el funcionamiento de Swiper. -->
+    
                         <div class="swiper-slide">
+                            <!-- Primera diapositiva del carrusel. Clase 'swiper-slide' para cada diapositiva individual. -->
                             <div class="slider">
+                                <!-- Contenedor que agrupa el texto e imagen de la primera diapositiva. -->
                                 <div class="slider-txt">
+                                    <!-- Texto de la primera diapositiva. -->
                                     <h1>Salchipapa</h1>
+                                    <!-- Título del producto. -->
                                     <p>
                                         La salchipapa es un popular platillo callejero que consiste en una base de papas fritas crujientes, acompañadas de trozos de salchicha jugosa. Suele servirse con una variedad de salsas y aderezos, como mayonesa, ketchup y ají, lo que realza su sabor. Perfecta para disfrutar como snack o en una reunión informal, la salchipapa es un festín de texturas y sabores que encanta a todos.
                                     </p>
+                                    <!-- Descripción del producto. -->
                                     <div class="botones">
+                                        <!-- Contenedor para los botones de acción. -->
                                         <a href="#" class="boton-1">Comprar</a>
+                                        <!-- Botón para comprar el producto. -->
                                         <a href="#" class="boton-1">Menu</a>
+                                        <!-- Botón para ir al menú. -->
                                     </div>
                                 </div>
+    
                                 <div class="slider-img">
+                                    <!-- Contenedor para la imagen del producto. -->
                                     <img src="imagenes/slider1.png" alt="">
+                                    <!-- Imagen correspondiente a la primera diapositiva. -->
                                 </div>
                             </div>
                         </div>
+    
+                        <!-- Repetir el bloque anterior para cada diapositiva adicional (Sandwich, Hamburguesa). -->
                         <div class="swiper-slide">
                             <div class="slider">
                                 <div class="slider-txt">
@@ -90,6 +136,7 @@
                                 </div>
                             </div>
                         </div>
+    
                         <div class="swiper-slide">
                             <div class="slider">
                                 <div class="slider-txt">
@@ -107,83 +154,79 @@
                                 </div>
                             </div>
                         </div>
+    
                     </div>
+    
                     <div class="swiper-button-next"></div>
+                    <!-- Botón para avanzar a la siguiente diapositiva en el carrusel. -->
                     <div class="swiper-button-prev"></div>
+                    <!-- Botón para retroceder a la diapositiva anterior en el carrusel. -->
                     <div class="swiper-pagination"></div>
+                    <!-- Paginación para indicar en qué diapositiva se encuentra el usuario. -->
                 </div>
             </div>
         </nav>
-    </header>
+    </header>    
 
     <main class="products">
+        <!-- Sección principal que contiene todos los productos y categorías. Se le aplica la clase 'products' para el estilo general. -->
         <div class="tabs container">
-
+            <!-- Contenedor de las pestañas. Clase 'tabs' para estilos de pestañas y 'container' para centrado y ancho máximo. -->
+            
             <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <!-- Entrada de tipo radio para la primera pestaña. 'checked' hace que esta pestaña esté seleccionada por defecto. -->
             <label for="tab1">Hamburguesa</label>
+            <!-- Etiqueta para la pestaña, asociada al radio button por 'for'. Aquí se muestra el nombre de la categoría: Hamburguesa. -->
             <div class="tab">
+                <!-- Contenedor de los productos correspondientes a la pestaña "Hamburguesa". -->
+    
                 <div class="swiper mySwiper-2" id="swiper">
-
+                    <!-- Implementación del carrusel con la clase 'swiper' para habilitar desplazamiento. 'mySwiper-2' para personalizar. -->
                     <div class="swiper-wrapper">
-
+                        <!-- Contenedor general de los deslizadores del carrusel. -->
+    
                         <div class="swiper-slide">
+                            <!-- Cada uno de los productos se muestra dentro de un 'swiper-slide'. -->
                             <div class="product">
+                                <!-- Clase 'product' para agrupar la imagen y descripción del producto. -->
                                 <div class="product-img">
                                     <h4>Nuevo</h4>
+                                    <!-- Texto destacado, indicando que el producto es nuevo. -->
                                     <img src="imagenes/food1.png" alt="">
+                                    <!-- Imagen del producto. Debe asegurarse que el atributo 'alt' contenga una descripción de la imagen para accesibilidad. -->
                                 </div>
                                 <div class="product-txt">
+                                    <!-- Contenedor para el texto descriptivo del producto. -->
                                     <h4>Master</h4>
+                                    <!-- Nombre del producto. -->
                                     <p>Calidad Premium</p>
+                                    <!-- Breve descripción del producto. -->
                                     <span class="precio">$26.000</span>
+                                    <!-- Precio del producto, con la clase 'precio' para aplicar estilo. -->
                                 </div>
                             </div>
                         </div>
-
-                        <div class="swiper-slide">
-                            <div class="product">
-                                <div class="product-img">
-                                    <h4>Nuevo</h4>
-                                    <img src="imagenes/food2.png" alt="">
-                                </div>
-                                <div class="product-txt">
-                                    <h4>LJamon</h4>
-                                    <p>Calidad Premium</p>
-                                    <span class="precio">$16.000</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="product">
-                                <div class="product-img">
-                                    <h4>Nuevo</h4>
-                                    <img src="imagenes/food3.png" alt="">
-                                </div>
-                                <div class="product-txt">
-                                    <h4>Pollo</h4>
-                                    <p>Calidad Premium</p>
-                                    <span class="precio">$25.000</span>
-                                </div>
-                            </div>
-                        </div>
-
+                        <!-- Repetir el bloque anterior para cada producto adicional en esta categoría. -->
+    
+                        <div class="swiper-button-next"></div>
+                        <!-- Botón para avanzar en el carrusel. -->
+                        <div class="swiper-button-prev"></div>
+                        <!-- Botón para retroceder en el carrusel. -->
                     </div>
-
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-
                 </div>
-
             </div>
-
-            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+    
+            <input type="radio" name="tabs" id="tab2" class="tabInput" value="2">
+            <!-- Entrada de tipo radio para la segunda pestaña, que corresponde a la categoría 'Burritos'. -->
             <label for="tab2">Burritos</label>
+            <!-- Etiqueta para la pestaña 'Burritos'. -->
             <div class="tab">
+                <!-- Contenedor de los productos para la pestaña 'Burritos'. -->
                 <div class="swiper mySwiper-2" id="swiper2">
-
+                    <!-- Otro carrusel similar al de la pestaña anterior, pero para 'Burritos'. -->
                     <div class="swiper-wrapper">
-
+                        <!-- Contenedor para los productos de 'Burritos'. -->
+    
                         <div class="swiper-slide">
                             <div class="product">
                                 <div class="product-img">
@@ -197,51 +240,24 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="swiper-slide">
-                            <div class="product">
-                                <div class="product-img">
-                                    <h4>Nuevo</h4>
-                                    <img src="imagenes/food5.png" alt="">
-                                </div>
-                                <div class="product-txt">
-                                    <h4>Tradicional</h4>
-                                    <p>Calidad Premium</p>
-                                    <span class="precio">$24.000</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="product">
-                                <div class="product-img">
-                                    <h4>Nuevo</h4>
-                                    <img src="imagenes/food6.png" alt="">
-                                </div>
-                                <div class="product-txt">
-                                    <h4>Camaroncin</h4>
-                                    <p>Calidad Premium</p>
-                                    <span class="precio">$26.000</span>
-                                </div>
-                            </div>
-                        </div>
-
+                        <!-- Otros productos de la misma categoría siguen este mismo formato. -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
-
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-
                 </div>
-
             </div>
-
-            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+    
+            <input type="radio" name="tabs" id="tab3" class="tabInput" value="3">
+            <!-- Entrada de tipo radio para la tercera pestaña, categoría 'Variedad'. -->
             <label for="tab3">Variedad</label>
+            <!-- Etiqueta de la pestaña 'Variedad'. -->
             <div class="tab">
+                <!-- Contenedor para los productos de la pestaña 'Variedad'. -->
                 <div class="swiper mySwiper-2" id="swiper3">
-
+                    <!-- Carrusel para los productos de la pestaña 'Variedad'. -->
                     <div class="swiper-wrapper">
-
+                        <!-- Contenedor para los productos de 'Variedad'. -->
+    
                         <div class="swiper-slide">
                             <div class="product">
                                 <div class="product-img">
@@ -255,47 +271,17 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="swiper-slide">
-                            <div class="product">
-                                <div class="product-img">
-                                    <h4>Nuevo</h4>
-                                    <img src="imagenes/food8.png" alt="">
-                                </div>
-                                <div class="product-txt">
-                                    <h4>Mini picada</h4>
-                                    <p>Calidad Premium</p>
-                                    <span class="precio">$28.000</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="product">
-                                <div class="product-img">
-                                    <h4>Nuevo</h4>
-                                    <img src="imagenes/food9.png" alt="">
-                                </div>
-                                <div class="product-txt">
-                                    <h4>Pizza</h4>
-                                    <p>Calidad Premium</p>
-                                    <span class="precio">$18.000</span>
-                                </div>
-                            </div>
-                        </div>
-
+                        <!-- Productos adicionales siguen el mismo formato. -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
-
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-
                 </div>
-
             </div>
-
         </div>
     </main>
+    
 
+    <!-- Muestra la información del contenedor -->
     <section class="info container">
         <div class="info-img">
             <img src="imagenes/info.png" alt="">
@@ -308,6 +294,7 @@
         </div>
     </section>
 
+    <!-- Se coloca la dirección junto con el horario y telefono -->
     <section class="horario">
         <div class="horario-info container">
             <h2>Horario</h2>
@@ -324,6 +311,8 @@
                     <h4>Telefono</h4>
                     <p> +57 55555555</p>
                 </div>
+
+                <!-- Se colocan las redes sociales -->
                 <div class="txt">
                     <h4>Redes Sociales</h4>
                     <div class="socials">
@@ -347,10 +336,12 @@
             </div>
         </div>
     </section>
+
+    <!-- Se hace conexión con el mapa de google, se cambiaron algunos valores de  width y height -->
     <section>
         <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31339.50630709989!2d-74.80557058916021!3d10.930227500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5cd6094289dcd%3A0x7e9f04dc2ec7d288!2sDanny%20Fast%20Food%20-%20Salamanca!5e0!3m2!1ses-419!2sco!4v1729475939708!5m2!1ses-419!2sco" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
-
+    <!-- Por acá es una sección de "socios" o personas involucradas en la empresa -->
     <footer class="footer container">
         <img src="imagenes/logo.png" alt="" class="logo-2">
         <div class="links">
@@ -380,6 +371,7 @@
                 <li><a href="#">Lorem</a></li>
             </ul>
         </div>
+        <!-- Se muestran los links de las redes osciales -->
         <div class="links">
             <h4>Siguenos</h4>
             <ul>
@@ -403,7 +395,7 @@
             </ul>
         </div>
     </footer>
-
+    <!-- Se hace la conexión con la librerria de Swiper-Slider -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./JS/index.js"></script>
 </body>

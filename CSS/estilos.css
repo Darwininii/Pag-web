@@ -1,3 +1,4 @@
+/* Se importa el tipo de letra por Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap');
 
 *{
@@ -11,8 +12,8 @@
 body{
 
     background: #0f0c29;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     
     font-family: "Kanit", sans-serif;
@@ -390,51 +391,64 @@ margin-right: 180px;
 }
 
 @media(max-width: 991px) {
+    /* Define una media query para dispositivos con un ancho de pantalla máximo de 991px.
+       Esto asegura que los estilos definidos aquí solo se aplicarán en pantallas más pequeñas, como tablets o móviles. */
+
     .menu {
         padding: 20px;
         justify-content: space-between;
+        /* Ajusta el padding del menú a 20px y distribuye los elementos de manera uniforme con 'space-between'. */
     }
 
     .menu-2 {
         display: none;
+        /* Oculta la segunda parte del menú en pantallas pequeñas. */
     }
 
     .logo-1 {
         width: 100px;
+        /* Reduce el tamaño del logo principal a 100px de ancho en pantallas pequeñas. */
     }
 
     .logo-2 {
         width: 0;
+        /* Oculta completamente el segundo logo en dispositivos móviles. */
     }
 
     .menu label {
         display: initial;
+        /* Muestra el icono del menú (hamburguesa) en pantallas pequeñas. */
     }
 
     .menu .navbar {
-        position:absolute;
+        position: absolute;
         top: 100%;
         left: 0;
         right: 0;
         background-color: #24243e;
         display: none;
+        /* Hace que la barra de navegación se coloque absolutamente debajo del menú, con ancho completo y fondo oscuro. Por defecto está oculta. */
     }
 
     .menu .navbar ul li {
         width: 100%;
+        /* Asegura que cada enlace de la lista dentro del menú ocupe todo el ancho disponible. */
     }
 
     #menu:checked ~ .navbar {
         display: initial;
+        /* Muestra el menú de navegación (navbar) cuando el checkbox del menú está activado. Esto crea la funcionalidad del menú desplegable. */
     }
 
     .header-content {
         padding: 30px;
         margin-top: 100px;
+        /* Ajusta el padding y agrega un margen superior de 100px para la sección del contenido principal en la cabecera. */
     }
 
     .slider {
         flex-direction: column;
+        /* Cambia la disposición de los elementos del slider a una dirección en columna (en lugar de fila) en pantallas pequeñas. */
     }
 
     .slider-txt {
@@ -442,29 +456,35 @@ margin-right: 180px;
         width: 100%;
         text-align: center;
         margin-bottom: 50px;
+        /* Centra el texto del slider, lo hace ocupar todo el ancho disponible y ajusta el margen inferior. */
     }
 
-    .slider-txt h1{
+    .slider-txt h1 {
         font-size: 50px;
+        /* Ajusta el tamaño del texto del título a 50px para pantallas pequeñas. */
     }
 
-    .slider-txt p{
-        font-size:  16px;
+    .slider-txt p {
+        font-size: 16px;
+        /* Ajusta el tamaño del párrafo a 16px. */
     }
 
     .boton-1 {
         padding: 10px 25px;
         font-size: 14px;
+        /* Ajusta el padding y el tamaño de fuente de los botones para adaptarse a pantallas pequeñas. */
     }
 
     .slider-img {
         width: 100%;
         text-align: center;
+        /* Hace que la imagen del slider ocupe todo el ancho disponible y la centra. */
     }
 
     .slider-img img {
         margin-right: 0px;
         width: 300px;
+        /* Ajusta el tamaño de las imágenes dentro del slider a 300px de ancho. */
     }
 
     .swiper-horisontal > .swiper-pagination-bullet,
@@ -472,78 +492,95 @@ margin-right: 180px;
     .swiper-pagination-custom,
     .swiper-button-fraction {
         bottom: 7px;
+        /* Ajusta la posición de los elementos de paginación del carrusel (Swiper) para que se ubiquen 7px por encima del borde inferior. */
     }
     
     .tabs {
         padding: 50px 30px;
+        /* Ajusta el padding de las pestañas a 50px en la parte superior/inferior y 30px en los lados. */
     }
 
     .tabs label {
         width: 33%;
+        /* Cada etiqueta de las pestañas ocupa el 33% del ancho total. */
     }
 
-    .info{
+    .info {
         padding: 30px;
         flex-direction: column;
+        /* Ajusta el padding de la sección de información y coloca sus elementos en columna. */
     }
 
     .info-img {
         width: 100%;
         text-align: center;
+        /* Hace que las imágenes dentro de la sección de información ocupen todo el ancho y estén centradas. */
     }
 
     .info-img img {
         width: 400px;
         height: 200px;
         margin-bottom: 25px;
+        /* Ajusta el tamaño de las imágenes de la información a 400px de ancho y 200px de alto, con un margen inferior de 25px. */
     }
 
     .info-txt {
         width: 100%;
         text-align: center;
+        /* El texto de la información ocupa todo el ancho disponible y se alinea al centro. */
     }
 
     .info-txt h2 {
         font-size: 50px;
+        /* Ajusta el tamaño de las cabeceras en la sección de información a 50px. */
     }
 
     .info-txt p {
-        font-size:  16px;
+        font-size: 16px;
+        /* Ajusta el tamaño de los párrafos a 16px. */
     }
 
     .boton-1 {
         font-size: 16px;
+        /* Ajusta el tamaño de los botones de acción en pantallas pequeñas a 16px. */
     }
 
     .horario {
         padding: 30px;
         text-align: center;
+        /* Ajusta el padding de la sección de horarios y alinea el texto al centro. */
     }
 
     .horario-info h2 {
-        font-size:  50px;
+        font-size: 50px;
         margin-bottom: 15px;
+        /* Ajusta el tamaño de los títulos de los horarios a 50px y agrega un margen inferior de 15px. */
     }
 
     .horario-txt {
         flex-direction: column;
+        /* Cambia la dirección de los elementos dentro del texto de horario a columna. */
     }
 
     .socials {
         justify-content: center;
+        /* Centra los íconos de redes sociales en la sección correspondiente. */
     }
 
     .social img {
         margin: 8px 0 0 0;
+        /* Agrega un margen superior de 8px a los íconos sociales. */
     }
 
     .footer {
         padding: 30px;
         flex-direction: column;
         text-align: center;
+        /* Ajusta el padding, coloca los elementos del pie de página en columna y alinea el texto al centro. */
     }
 
     .links h4 {
         margin: 25px 0px 10px 0px;
+        /* Ajusta los márgenes de los encabezados dentro de los enlaces del pie de página. */
     }
 }
